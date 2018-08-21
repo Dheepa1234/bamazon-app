@@ -1,6 +1,6 @@
 //require mysql and inquirer
-var mysql = require('mysql');
-var inquirer = require('inquirer');
+var mysql = require("mysql");
+var inquirer = require("inquirer");
 
 //create connection to db
 var connection = mysql.createConnection({
@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
   port: 3306,
   user: "root",
   password: "",
-  database: "Bamazon"
+  database: "bamazon_db"
 })
 
 function start(){

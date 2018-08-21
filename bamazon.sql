@@ -27,14 +27,14 @@ VALUES ("Uncharted 4","ENTERTAINMENT",49.95,150),
     ("Glastonbury DVD","ENTERTAINMENT",30.50,35),
     ("Poker Set","ENTERTAINMENT",19.95,23);
 
-CREATE TABLE Departments(
+CREATE TABLE departments(
     DepartmentID MEDIUMINT AUTO_INCREMENT NOT NULL,
     DepartmentName VARCHAR(50) NOT NULL,
     OverHeadCosts DECIMAL(10,2) NOT NULL,
     TotalSales DECIMAL(10,2) NOT NULL,
     PRIMARY KEY(DepartmentID));
 
-INSERT INTO Departments(DepartmentName, OverHeadCosts, TotalSales)
+INSERT INTO departments(departmentName, overHeadCosts, totalSales)
 VALUES ('ENTERTAINMENT', 50000.00, 15000.00),
     ('ELECTRONICS', 20000.00, 12000.00),
     ('HOME', 30000.00, 15000.00),
