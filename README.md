@@ -8,4 +8,4 @@ The app should prompt the user with messages.
 
 The app requires NPM packages and a package JSON to work properly in the command line.
 
-So far, I am not able to get this app functioning properly.
+I have added a text image to this repository to show how I have tried to get the app working so far.
